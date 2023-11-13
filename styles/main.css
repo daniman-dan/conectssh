@@ -81,6 +81,26 @@ MAIN
   /*---------------
   ABOUT
   -----------------*/
+
+  .about {
+    background-color: #f7f7f7; /* Cambia el color de fondo a tu preferencia */
+    padding: 20px; /* Añade espacio alrededor del contenido */
+    border: 1px solid #ddd; /* Agrega un borde con un color y grosor a tu elección */
+    border-radius: 5px; /* Añade esquinas redondeadas */
+    text-align: center; /* Alinea el contenido al centro */
+  }
+  
+  .about h2 {
+    font-size: 24px; /* Cambia el tamaño de la fuente del encabezado */
+    color: #333; /* Cambia el color del encabezado a tu preferencia */
+    margin-bottom: 10px; /* Agrega espacio entre el encabezado y el párrafo */
+  }
+  
+  .about p {
+    font-size: 16px; /* Cambia el tamaño de la fuente del párrafo */
+    color: #666; /* Cambia el color del texto del párrafo a tu preferencia */
+    margin-bottom: 20px; /* Agrega espacio al final del párrafo */
+  }
   .about {
     position: relative;
     height: 450px;
@@ -90,7 +110,7 @@ MAIN
     .about > p {
       padding: 0 40px;
       text-align: justify;
-      color: white;
+      color: black;
       font-size: 14px;
       line-height: 24px;
     }
